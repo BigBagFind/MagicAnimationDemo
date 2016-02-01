@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817B432F1C5F635000678E59 /* airAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 817B432E1C5F635000678E59 /* airAnimation.gif */; };
 		81B156411C5F2FA1002E9849 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B156401C5F2FA1002E9849 /* main.m */; };
 		81B156441C5F2FA1002E9849 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B156431C5F2FA1002E9849 /* AppDelegate.m */; };
 		81B156471C5F2FA1002E9849 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B156461C5F2FA1002E9849 /* ViewController.m */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		817B432E1C5F635000678E59 /* airAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = airAnimation.gif; sourceTree = "<group>"; };
 		81B1563C1C5F2FA1002E9849 /* MagicAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B156401C5F2FA1002E9849 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81B156421C5F2FA1002E9849 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				81B156761C5F4454002E9849 /* info_newpaper.png */,
 				81B156781C5F524F002E9849 /* info_op.png */,
 				81B156501C5F2FA1002E9849 /* Info.plist */,
+				817B432E1C5F635000678E59 /* airAnimation.gif */,
 				81B1563F1C5F2FA1002E9849 /* Supporting Files */,
 			);
 			path = MagicAnimationDemo;
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817B432F1C5F635000678E59 /* airAnimation.gif in Resources */,
 				81B156771C5F4454002E9849 /* info_newpaper.png in Resources */,
 				81B156791C5F524F002E9849 /* info_op.png in Resources */,
 				81B1564F1C5F2FA1002E9849 /* LaunchScreen.storyboard in Resources */,
@@ -514,6 +518,7 @@
 				81B1566B1C5F2FA1002E9849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81B1566C1C5F2FA1002E9849 /* Build configuration list for PBXNativeTarget "MagicAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				81B1566E1C5F2FA1002E9849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81B1566F1C5F2FA1002E9849 /* Build configuration list for PBXNativeTarget "MagicAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				81B156711C5F2FA1002E9849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
